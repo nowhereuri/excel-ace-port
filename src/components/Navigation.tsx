@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
@@ -15,7 +15,7 @@ export const Navigation = ({ onLogoClick, showAdminButton }: NavigationProps) =>
   const [activeSection, setActiveSection] = useState("home");
   const navigate = useNavigate();
 
-  const sections = [
+  const sections = useMemo(() => [
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "experience", label: "Experience" },
@@ -23,7 +23,7 @@ export const Navigation = ({ onLogoClick, showAdminButton }: NavigationProps) =>
     { id: "projects", label: "Projects" },
     { id: "awards", label: "Awards" },
     { id: "contact", label: "Contact" },
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {
