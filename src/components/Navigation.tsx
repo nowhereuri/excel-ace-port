@@ -48,7 +48,7 @@ export const Navigation = ({ onLogoClick, showAdminButton }: NavigationProps) =>
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [sections]);
 
   useEffect(() => {
     if (isDark) {
