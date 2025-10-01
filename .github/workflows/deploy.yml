@@ -45,7 +45,7 @@ jobs:
 
       # 5. 프로덕션 빌드
       - name: Build
-        run: npm run build
+        run: npm run build:prod
 
       # 6. 빌드 결과물 업로드
       - name: Upload artifact
