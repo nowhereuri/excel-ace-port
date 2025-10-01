@@ -1,8 +1,14 @@
-# Welcome to your Lovable project
+# Excel Ace Portfolio
 
-## Project info
+개인 웹 포트폴리오 사이트입니다.
 
-**URL**: https://lovable.dev/projects/06089328-b460-4a7b-99fb-99877d1473c0
+## 🚀 배포된 사이트
+
+**Live URL**: https://[your-username].github.io/excel-ace-port/
+
+## 📋 프로젝트 정보
+
+**Repository**: excel-ace-port
 
 ## How can I edit this code?
 
@@ -60,14 +66,34 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## 🚀 배포 방법
 
-Simply open [Lovable](https://lovable.dev/projects/06089328-b460-4a7b-99fb-99877d1473c0) and click on Share -> Publish.
+### GitHub Actions를 통한 자동 배포
 
-## Can I connect a custom domain to my Lovable project?
+1. **GitHub Pages 설정**:
+   - Repository Settings > Pages > Source를 "GitHub Actions"로 설정
+   - main 브랜치에 push하면 자동으로 배포됩니다
 
-Yes, you can!
+2. **수동 배포**:
+   ```bash
+   npm run deploy
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+3. **로컬 개발**:
+   ```bash
+   npm run dev
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 배포 설정
+
+- **빌드 명령어**: `npm run build:prod`
+- **배포 디렉토리**: `dist/`
+- **Base URL**: `/excel-ace-port/` (GitHub Pages용)
+
+## 🛠️ 기술 스택
+
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **UI Library**: shadcn/ui + Radix UI
+- **Styling**: Tailwind CSS
+- **Deployment**: GitHub Actions + GitHub Pages
