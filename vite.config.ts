@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   // GitHub Pages 배포를 위한 base 경로 설정
-  base: '/excel-ace-port/',
+  base: mode === 'production' ? '/excel-ace-port/' : '/',
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
