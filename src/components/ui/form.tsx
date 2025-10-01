@@ -7,6 +7,13 @@ import { cn } from "@/lib/utils";
 import { Label } from "@/components/ui/label";
 import { useFormField, FormFieldContext, FormItemContext } from "./form-hooks";
 
+type FormFieldContextValue<
+  TFieldValues extends FieldValues = FieldValues,
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
+> = {
+  name: TName;
+};
+
 const Form = FormProvider;
 
 const FormField = <
@@ -16,7 +23,7 @@ const FormField = <
   ...props
 }: ControllerProps<TFieldValues, TName>) => {
   return (
-    <FormFieldContext.Provider value={{ name: props.name } as any}>
+    <FormFieldContext.Provider value={{ name: props.name } as FormFieldContextValue<TFieldValues, TName>}>
       <Controller {...props} />
     </FormFieldContext.Provider>
   );
