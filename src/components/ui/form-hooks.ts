@@ -12,7 +12,7 @@ type FormItemContextValue = {
   id: string;
 };
 
-const FormFieldContext = React.createContext<FormFieldContextValue<any, any> | null>(null);
+const FormFieldContext = React.createContext<FormFieldContextValue<FieldValues, FieldPath<FieldValues>> | null>(null);
 const FormItemContext = React.createContext<FormItemContextValue>({} as FormItemContextValue);
 
 export function useFormField() {
