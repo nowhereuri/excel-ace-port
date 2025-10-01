@@ -1,0 +1,50 @@
+[
+  {
+    "id": "award-1",
+    "type": "award",
+    "title": "Excellence in Technical Education Award",
+    "date": "2023",
+    "institution": "National Education Association",
+    "details": "Recognized for outstanding contribution to technical education and innovative teaching methodologies"
+  },
+  {
+    "id": "cert-1",
+    "type": "certification",
+    "title": "Microsoft Certified: Data Analyst Associate",
+    "date": "2022",
+    "institution": "Microsoft",
+    "details": "Professional certification in data analysis using Microsoft Power BI and Excel"
+  },
+  {
+    "id": "cert-2",
+    "type": "certification",
+    "title": "Advanced Excel Specialist Certification",
+    "date": "2021",
+    "institution": "Excel Academy International",
+    "details": "Master-level certification covering advanced functions, VBA, and automation"
+  },
+  {
+    "id": "train-1",
+    "type": "training",
+    "title": "AI and Machine Learning for Business",
+    "date": "2023",
+    "institution": "Stanford Online",
+    "details": "Completed advanced training in AI applications for business analytics and automation"
+  },
+  {
+    "id": "award-2",
+    "type": "award",
+    "title": "Top Rated Instructor Award",
+    "date": "2022",
+    "institution": "Tech Education Institute",
+    "details": "Highest student satisfaction rating among 50+ instructors"
+  },
+  {
+    "id": "cert-3",
+    "type": "certification",
+    "title": "Project Management Professional (PMP)",
+    "date": "2020",
+    "institution": "Project Management Institute",
+    "details": "Certified in project management methodologies and best practices"
+  }
+]

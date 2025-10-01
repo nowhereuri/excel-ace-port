@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Excel & VBA",
+    "skills": [
+      { "name": "Advanced Excel Functions", "level": 95 },
+      { "name": "VBA Programming", "level": 90 },
+      { "name": "Pivot Tables & Charts", "level": 95 },
+      { "name": "Excel Macros", "level": 90 }
+    ]
+  },
+  {
+    "category": "Power Query & BI",
+    "skills": [
+      { "name": "Power Query (M Language)", "level": 88 },
+      { "name": "Power Pivot", "level": 85 },
+      { "name": "DAX Formulas", "level": 80 },
+      { "name": "Power BI", "level": 82 }
+    ]
+  },
+  {
+    "category": "Data Analytics",
+    "skills": [
+      { "name": "Data Cleaning & Transformation", "level": 92 },
+      { "name": "Statistical Analysis", "level": 85 },
+      { "name": "Data Visualization", "level": 90 },
+      { "name": "SQL Queries", "level": 78 }
+    ]
+  },
+  {
+    "category": "Education Design",
+    "skills": [
+      { "name": "Curriculum Development", "level": 90 },
+      { "name": "Instructional Design", "level": 88 },
+      { "name": "Video Content Creation", "level": 85 },
+      { "name": "Corporate Training", "level": 92 }
+    ]
+  },
+  {
+    "category": "AI & Web Services",
+    "skills": [
+      { "name": "ChatGPT Integration", "level": 80 },
+      { "name": "AI Service Planning", "level": 78 },
+      { "name": "Web Scraping (Python)", "level": 75 },
+      { "name": "API Integration", "level": 72 }
+    ]
+  }
+]

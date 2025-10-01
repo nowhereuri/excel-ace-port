@@ -1,0 +1,77 @@
+[
+  {
+    "id": "proj-1",
+    "title": "Enterprise Sales Dashboard",
+    "description": "Comprehensive sales analytics dashboard with real-time KPI tracking, automated reporting, and interactive visualizations for a Fortune 500 company.",
+    "image": "/images/project-1.jpg",
+    "tech": ["Excel", "VBA", "Power Query", "Power Pivot"],
+    "tags": ["Automation", "Dashboard", "Enterprise"],
+    "role": "Lead Developer & Analyst",
+    "contribution": "Designed the entire dashboard architecture, implemented VBA automation scripts, and trained the sales team on usage.",
+    "results": [
+      "Reduced reporting time from 8 hours to 15 minutes",
+      "Enabled real-time decision making for 50+ sales managers",
+      "Increased data accuracy by 98%"
+    ],
+    "links": {
+      "demo": "#",
+      "docs": "#"
+    }
+  },
+  {
+    "id": "proj-2",
+    "title": "Financial Data Automation Suite",
+    "description": "End-to-end automation system for financial data processing, reconciliation, and reporting across multiple departments.",
+    "image": "/images/project-2.jpg",
+    "tech": ["Excel", "VBA", "SQL", "Power Query"],
+    "tags": ["Finance", "Automation", "Integration"],
+    "role": "Automation Specialist",
+    "contribution": "Developed VBA macros for data extraction, transformation, and loading (ETL). Created automated reconciliation workflows.",
+    "results": [
+      "Automated processing of 50,000+ transactions monthly",
+      "Eliminated manual reconciliation errors",
+      "Saved 120 hours of manual work per month"
+    ],
+    "links": {
+      "demo": "#"
+    }
+  },
+  {
+    "id": "proj-3",
+    "title": "HR Analytics Platform",
+    "description": "Interactive HR analytics platform providing insights on employee performance, turnover rates, and recruitment metrics.",
+    "image": "/images/project-3.jpg",
+    "tech": ["Power BI", "Excel", "DAX", "Power Query"],
+    "tags": ["HR", "Analytics", "Visualization"],
+    "role": "BI Consultant",
+    "contribution": "Designed data model, created DAX measures, and built interactive Power BI reports with drill-down capabilities.",
+    "results": [
+      "Provided actionable insights for 500+ employee dataset",
+      "Improved retention strategy with predictive analytics",
+      "Enabled data-driven HR decision making"
+    ],
+    "links": {
+      "demo": "#",
+      "docs": "#"
+    }
+  },
+  {
+    "id": "proj-4",
+    "title": "Excel Training Course Platform",
+    "description": "Comprehensive online training platform with 50+ video lessons, practice files, and certification program for Excel mastery.",
+    "image": "/images/project-4.jpg",
+    "tech": ["Excel", "VBA", "Video Production", "LMS"],
+    "tags": ["Education", "E-Learning", "Certification"],
+    "role": "Course Creator & Instructor",
+    "contribution": "Developed entire curriculum, created video content, designed practice exercises, and built assessment system.",
+    "results": [
+      "Trained 1,000+ students with 4.8/5 rating",
+      "85% course completion rate",
+      "300+ certified professionals"
+    ],
+    "links": {
+      "demo": "#",
+      "docs": "#"
+    }
+  }
+]

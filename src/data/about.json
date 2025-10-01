@@ -1,0 +1,14 @@
+{
+  "name": "John Park",
+  "tagline": "Empowering businesses and individuals with data-driven solutions",
+  "bio": "With over 10 years of experience in Excel automation and data analysis, I specialize in transforming complex business challenges into streamlined, automated solutions. My approach combines technical expertise with educational insight, helping organizations and professionals unlock the full potential of their data. I believe that the right tools and knowledge can revolutionize how we work, and I'm passionate about making advanced analytics accessible to everyone.",
+  "email": "john.park@example.com",
+  "phone": "+82-10-1234-5678",
+  "location": "Seoul, South Korea",
+  "kpis": [
+    { "label": "Years of Experience", "value": "10+", "icon": "calendar" },
+    { "label": "Projects Completed", "value": "150+", "icon": "briefcase" },
+    { "label": "Students Taught", "value": "2,000+", "icon": "users" },
+    { "label": "Training Hours", "value": "5,000+", "icon": "clock" }
+  ]
+}

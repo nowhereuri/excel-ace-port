@@ -1,0 +1,38 @@
+[
+  {
+    "id": "exp-1",
+    "organization": "Tech Education Institute",
+    "role": "Senior Data Analytics Instructor",
+    "period": "2020 - Present",
+    "description": "Leading advanced Excel and data analytics training programs for corporate clients and individual learners.",
+    "achievements": [
+      "Developed comprehensive Excel automation curriculum reaching 1,000+ students",
+      "Created 50+ video tutorials with 95% positive feedback rating",
+      "Established partnership programs with 15+ corporate clients"
+    ]
+  },
+  {
+    "id": "exp-2",
+    "organization": "DataFlow Solutions",
+    "role": "Business Intelligence Consultant",
+    "period": "2018 - 2020",
+    "description": "Provided data analytics and automation consulting for SMEs and enterprises.",
+    "achievements": [
+      "Implemented Excel-based automation systems reducing manual work by 70%",
+      "Designed Power Query solutions processing 100k+ records daily",
+      "Led team of 5 analysts in delivering 30+ successful projects"
+    ]
+  },
+  {
+    "id": "exp-3",
+    "organization": "Global Finance Corp",
+    "role": "Data Analyst",
+    "period": "2015 - 2018",
+    "description": "Analyzed financial data and created automated reporting systems using Excel and VBA.",
+    "achievements": [
+      "Built VBA macros automating monthly financial reports (saving 40 hours/month)",
+      "Developed interactive dashboards for C-level executives",
+      "Trained 50+ team members on advanced Excel techniques"
+    ]
+  }
+]
